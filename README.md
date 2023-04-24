@@ -12,7 +12,7 @@ different car attributes and capabilities and the actual prices corresponding to
 dataset is filtered, statistically analyzed, and only the most relevant attributes are selected to train the model. To obtain the best performing model, the one
 most capable of generating reliable predictions, different models are developed, fine-tuned, and evaluated through in-sample and out-of-sample evaluations, and 
 their performances compared. The final end is to find the model that simultaneously performs best on the data by which it was trained (in-sample) and in the real 
-world with novel or previously unseen data (out-of-sample). As such, the model undergoes a processes of parameter fine-tuning to reduce its estimated generalization 
+world with novel or previously unseen data (out-of-sample). As such, the model undergoes a process of parameter fine-tuning to reduce its estimated generalization 
 error and thereby improve its overall performance in the real world. The model selected is then used to generate price predictions both from a data sample and from 
 user input.** <br>
 
