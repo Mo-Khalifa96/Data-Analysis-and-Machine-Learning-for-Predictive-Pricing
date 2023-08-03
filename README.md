@@ -7,7 +7,7 @@ part of my IBM course, 'Data Analysis with Python', but was expanded and built u
 within and outside the course.**
 <br>
 <br>
-**The aim of this project is to develop a machine learning model that can reliably predict car prices. To develop such model, an automobile dataset, comprised of
+**The aim of this project is to develop a machine learning model that can reliably predict car prices. To develop such a model, an automobile dataset, comprised of
 different car attributes and capabilities and the actual prices corresponding to each set of attributes, is fed to the model to train it. More particularly, the 
 dataset is filtered, statistically analyzed, and only the most relevant attributes are selected to train the model. To obtain the best performing model, the one
 most capable of generating reliable predictions, different models are developed, fine-tuned, and evaluated through in-sample and out-of-sample evaluations, and 
@@ -31,10 +31,10 @@ user input.** <br>
 
 ## About The Data 
 **As mentioned, the data being analyzed here is based on an automobile dataset comprised of a variety of car characteristics, including key characteristics such as car brand, 
-horsepower, engine type, and its original pricing. The automobile dataset can be accessed from the attached excel file or by clicking [here](https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data).**
+horsepower, engine type, and its original pricing. The automobile dataset can be accessed from the attached Excel file or by clicking [here](https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data).**
 <br>
 
-**You can view each coloumn in the set and its describtion in the table below:** <br>
+**You can view each coloumn in the set and its description in the table below:** <br>
 <br>
 
 | **Variable**          | **Description**                                                                                  |
@@ -52,19 +52,19 @@ horsepower, engine type, and its original pricing. The automobile dataset can be
 | **length**            | Car's length (continuous from 141.1 to 208.1).                                                   |
 | **width**             | Car's width (continuous from 60.3 to 72.3).                                                      |
 | **height**            | Car's height (continuous from 47.8 to 59.8).                                                     |
-| **curb-weight**       | Car's curb weight (continous from 1488 to 4066).                                                 |
+| **curb-weight**       | Car's curb weight (continuous from 1488 to 4066).                                                |
 | **engine-type**       | The engine type (includes, dohc, dohcv, ohc, ohcf, ohcv, l, rotor).                              |
 | **num-of-cylinders**  | Number of cylinders (two, three, four, five, six, eight, twelve).                                |
-| **engine-size**       | Car's engine size (continous from 61 to 326).                                                    |
+| **engine-size**       | Car's engine size (continuous from 61 to 326).                                                   |
 | **fuel-system**       | Car's fuel system (includes, 1bbl, 2bbl, 4bbl, idi, mfi, mpfi, spdi, spfi).                      |
 | **bore**              | Car's bore size (continuous from 2.54 to 3.94).                                                  |
-| **stroke**            | Engine's stroke length (continous from 2.07 to 4.17).                                            |
-| **compression-ratio** | Ratio between the cylinder's volume and combustion chamber in combustion engine (continous from 7 to 23).|
-| **horsepower**        | Car's horsepower (continuous from 48 to 288).                                                    |
-| **peak-rpm**          | Peak revolutions per minute (continous from 4150 to 6600).                                       |
-| **city-mpg**          | Car's average miles per gallon in the city (continous from 13 to 49).                            |
-| **highway-mpg**       | Car's average miles per gallon on highways (continous from 16 to 54).                            |
-| **price**             | Car price (continous from 5118 to 45400).                                                        |
+| **stroke**            | Engine's stroke length (continuous from 2.07 to 4.17).                                           |
+| **compression-ratio** | Ratio between the cylinder's volume and combustion chamber in combustion engine (continuous from 7 to 23).|
+| **horsepower**        | Car's horsepower (continuous from 48 to 288).                                                     |
+| **peak-rpm**          | Peak revolutions per minute (continuous from 4150 to 6600).                                       |
+| **city-mpg**          | Car's average miles per gallon in the city (continuous from 13 to 49).                            |
+| **highway-mpg**       | Car's average miles per gallon on highways (continuous from 16 to 54).                            |
+| **price**             | Car price (continuous from 5118 to 45400).                                                        |
 
 <br>
 <br>
@@ -78,8 +78,8 @@ horsepower, engine type, and its original pricing. The automobile dataset can be
 <br> 
 
 ## Quick Access 
-**As always, I have provided two links to quickly access the project. Both will direct you the Jupyter Notebook with all the code and corresponding output, broken down and 
-organized into separate sections or cells, each section supplied with explanations and take aways that guide the development of the project one step at a time. However, whilst 
+**As always, I have provided two links to quickly access the project. Both will direct you to the Jupyter Notebook with all the code and corresponding output, broken down and 
+organized into separate sections or cells, each section supplied with explanations and takeaways that guide the development of the project one step at a time. However, whilst 
 the first link renders the code and output for viewing only, the second one will enable you in addition to interact with the code and reproduce the results if you wish so. I would 
 recommend the second link as the final section provides a function that takes input from the user with all the car attributes they have in mind, and employs the model to return back 
 a price prediction that best corresponds to these given attributes. Feel free to try it yourself.** <br> 
